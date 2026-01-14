@@ -1,5 +1,6 @@
 # Project01
-This is just for lab practice only
+
+this is 1st practical of container technology
 
 ## Author
 Gaurav kumar
