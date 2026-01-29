@@ -21,5 +21,23 @@ This is a DSA with JAVA repository.
 *
 ```
 
+## Pattern 03 --> p3()
+```text
+    *
+   **
+  ***
+ ****
+*****
+```
+
+## Pattern 04 --> p4()
+```text
+*****
+ ****
+  ***
+   **
+    *
+```
+
 ## Author
 Gaurav kumar

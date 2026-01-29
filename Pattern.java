@@ -28,12 +28,43 @@ public class Pattern {
         }
     }
 
+    static void p3() {
+        int n = 5;
+        for (int row = 0; row <= 5; row++) {
+            for (int col = 0; col <= 5; col++) {
+                if (col <= n - row) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    static void p4() {
+        int n=5;
+        for (int row = 0; row <= n; row++) {
+            for (int col = 0; col <= n; col++) {
+                if (col <= row) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+    }
     
 
     public static void main(String[] args) {
         p1();
         System.out.println();
         p2();
+        System.out.println();
+        p3();
+        System.out.println();
+        p4();
         System.out.println();
        
     }
