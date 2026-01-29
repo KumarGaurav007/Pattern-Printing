@@ -1,6 +1,7 @@
-# Project01
+# Pattern Printing 
 
-this is 1st practical of container technology
+In this repository i am doing solutions for different patttern-printing <br>
+This is a DSA with JAVA repository.
 
 ## Author
 Gaurav kumar
