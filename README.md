@@ -39,5 +39,24 @@ This is a DSA with JAVA repository.
     *
 ```
 
+## Pattern 05 --> p5()
+```text
+*****
+*   *
+*   *
+*   *
+*****
+```
+
+## Pattern 06 --> p6()
+```text
+*   *
+ * *
+  *
+ * *
+*   *
+```
+
 ## Author
-Gaurav kumar
+<b> <i>Gaurav kumar </i> </b> <br>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gaurav%20Kumar-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/gaurav-kumar-25-oct/)

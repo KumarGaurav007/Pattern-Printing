@@ -3,9 +3,8 @@ public class Pattern {
 
     //? static is a key word which loads at the time of loding of class
     //?  static rhing binds with class not with object
-
     static void p1() {
-        int n=5;
+        int n = 5;
         for (int row = 1; row <= n; row++) {
             for (int col = 1; col <= n; col++) {
                 if (col <= row) {
@@ -43,7 +42,7 @@ public class Pattern {
     }
 
     static void p4() {
-        int n=5;
+        int n = 5;
         for (int row = 0; row <= n; row++) {
             for (int col = 0; col <= n; col++) {
                 if (col <= row) {
@@ -55,7 +54,34 @@ public class Pattern {
             System.out.println();
         }
     }
-    
+
+    static void p5() {
+        int n = 5;
+        for (int row = 1; row <= n; row++) {
+            for (int col = 1; col <= n; col++) {
+                if (row == 1 || row == n || col == 1 || col == n) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    static void p6() {
+        int n = 5;
+        for (int row = 1; row <= n; row++) {
+            for (int col = 1; col <= n; col++) {
+                if (row == col || col == n - row + 1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
 
     public static void main(String[] args) {
         p1();
@@ -66,6 +92,10 @@ public class Pattern {
         System.out.println();
         p4();
         System.out.println();
-       
+        p5();
+        System.out.println();
+        p6();
+        System.out.println();
+
     }
 }
